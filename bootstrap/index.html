@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ob4laio</title>
+    <!--Fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="js/loading-bar.css"/>
+    <!--Scripts-->
+    <script 
+    src="https://code.jquery.com/jquery-3.5.1.min.js" 
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+    crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/a4eaeb5d4d.js" crossorigin="anonymous"></script>
+    <!-- Progress bar-->
+   <script src="js/progressbar.min.js"></script>
+   <script type="text/javascript" src="js/loading-bar.js"></script>
+   <!-- Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a href="index.html" class="navbar-brand">
+                    <img id="logo" src="img/LOGO.svg" alt="agency"> OB4lai0
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> 
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" a href="#"> Home</a>
+                        <a class="nav-item nav-link" id="jiu-menu" a href="#"> Jiu-jitsu</a>
+                        <a class="nav-item nav-link" id="praxis-menu" a href="#"> Práxis</a>
+                        <a class="nav-item nav-link" id="professores-menu" a href="#"> Professores</a>
+                        <a class="nav-item nav-link" id="portfolio-menu" a href="#"> Projetos </a>
+                        <a class="nav-item nav-link" id="contato-menu" a href="#"> Contato</a>
+                        <a class="nav-item nav-link navbar-toggler-icon" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">  
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="file:///Users/thiago/Desktop/thebegin/Sitefinal/index.html">Primeiro site</a>
+                          </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+     <div class="container-fluid">
+        <!--slider-->
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                  <li data-target="#mainSlider" data-slide-to="1"></li>
+                  <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img src="img/wall11.jpg" class="d-block w-100" alt="projetos de jiu-jitsu">     
+                    <div class="carousel-caption d-md-block">
+                     <h2> Quer começar a praticar?</h2>
+                     <p> Vem conosco estamos em toda parte</p>
+                     <a href="#" class="main-btn"> Veja como</a>
+                    </div>
+                 </div>
+                    <div class="carousel-item">
+                       <img src="img/wall2.jpg" class="d-block w-100" alt="O que o jiu-jitsu é">
+                        <div class= "carousel-caption d-md-block">
+                        <h2> O que é o Jiu-jitsu?</h2>
+                        <p> Deixe o corpo descobrir isso!</p>
+                        <a href="#" class="main-btn"> Descubra</a>
+                        </div>
+                    </div>
+                     <div class="carousel-item">
+                        <img src="img/wall3.jpg" class="d-block w-100" alt="O jiu-jitsu">
+                        <div class="carousel-caption d-md-block">
+                         <h2> Nossa equipe de instrutores</h2>
+                         <p> Quem educa os educadores?</p> 
+                         <a href="#" class="main-btn"> faça parte</a>
+                        </div>     
+                    </div>
+                </div>    
+                <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"> Previous </span>
+                </a>
+                <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"> Next </span>
+                </a>
+        </div>
+
+        <!--sobre o jiu-jitsu-->
+        <div id="about-area">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                        <h3 class="main-title">Jiu-jitsu</h3>
+                      </div>
+                      <div class="col-md-6">
+                        <img class="img-fluid" src= "img/foto1.jpg" alt="Agencia de onde">
+                      </div>
+                      <div class="col-md-6">
+                        <h3 class="about-title">Uma prática que integra psiquismo e corpo </h3>
+                        <p> Tudo o que se refere a arte tem relação com a totalidade</p>
+                        <p> Tudo o que se refere ao tudo tem relação com a contradição</p>
+                        <p> Tudo o que se refere ao tudo tem relação com a mediação</p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i> Vencendo sua insegurança</li>
+                            <li><i class="fas fa-check"></i> Vencendo seu senso de superioridade</li>
+                            <li><i class="fas fa-check"></i> Vencendo sua vaidade</li>
+                            <li><i class="fas fa-check"></i> Vencendo sua arrogância</li>
+                            <li><i class="fas fa-check"></i> Vencendo seu orgulho</li>
+                        </ul>
+                     </div>
+                    </div>      
+                </div>
+        </div>
+
+         <!--Práxis-->
+        <div id="services-area">
+              <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title">A práxis da arte suave</h3>
+                      </div>
+                      <div class="col-md-4 service-box">
+                      <i class="fas fa-mobile-alt"></i>
+                       <h4> Aplicativos instrutivos </h4>
+                       <p> Use a tecnologia a seu favor. Aprenda utilizando seu celular.</p>
+                       </div>   
+                      <div class="col-md-4 service-box">
+                        <i class="fa fa-thumbs-down"></i>
+                        <h4> Você acha que vai comprar sua faixa? </h4>
+                        <p> Qualquer faixa pode ser comprada, mas o que ela significa não.</p>
+                      </div> 
+                      <div class="col-md-4 service-box">
+                        <i class="fas fa-paint-brush"></i>
+                        <h4> Use sua criatividade </h4>
+                        <p> Jiu-jitsu não é só força, mas inteligência.</p>
+                        </div> 
+                      <div class="col-md-4 service-box">
+                       <i class="fa fa-university"></i>
+                       <h4> Uma biblioteca de posições a sua espera.</h4>
+                       <p> Professores devem sempre ser bem treinados</p>
+                      </div> 
+                      <div class="col-md-4 service-box">
+                       <i class="fas fa-hands-helping"></i>
+                       <h4> Suporte solidário da comunidade </h4>
+                       <p> Conte com seu parceiro de treinos para ampliar e desenvolver suas habilidades.</p>
+                      </div>      
+                      <div class="col-md-4 service-box">
+                        <i class="fa fa-map-o"></i>
+                        <h4> Academias estão por todo mundo </h4>
+                        <p> Treine onde você estiver, não deixe seu corpo esquecer as técnicas.</p>
+                       </div> 
+                    </div>                  
+                </div>  
+        </div>    
+
+        <!-- Dados -->
+        <div id="data-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 circle-box">
+                            <div class="ldBar label-center path.mainline"
+                            style="width:300px;height:150px",
+                            data-stroke="data:ldbar/res,gradient(0,1,#9df,#9fd,#df9,#fd9)",
+                            data-path="M 168.62633,267.69192 40.163376,267.77671 104.32142,156.48213 Z",
+                            data-value="98",
+                            data-transition-in="9.0",
+                            data-duration="5",
+                            data-stroke-trail="transparent",
+                            id="tri"
+                            ></div>
+                            <div id="circleA"></div>
+                             <p id="fp"> Satisfação </p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            
+                            <div id="circleB"></div>
+                             <p> Pessoas treinando</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleC"></div>
+                             <p> Posições estudadas</p>
+                        </div>
+                        <div class="col-md-3 circle-box">
+                            <div id="circleD"></div>
+                             <p> Rolls</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <!--time-->
+        <div id="team-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12"> 
+                    <h3 class="main-title"> Nosse Time </h3>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/jigoro.jpg" class="card-img-top" alt= "Imagem 1">
+                            <div class="card-body">
+                            <h5 class="card-title"> Jigoro Kano</h5>
+                            <p class=" card-text"> fundador</p>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/bakunin.jpg" class="card-img-top" alt= "Imagem 2">
+                            <div class="card-body">
+                            <h5 class="card-title"> Who</h5>
+                            <p class=" card-text"> curioso</p>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/Macu.png" class="card-img-top" alt= "Imagem 3">
+                            <div class="card-body">
+                            <h5 class="card-title"> Maria</h5>
+                            <p class=" card-text"> comandande</p>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="img/levi.jpg" class="card-img-top" alt= "Imagem 4">
+                            <div class="card-body">
+                            <h5 class="card-title"> Zica </h5>
+                            <p class=" card-text"> guia </p>
+                            </div>
+                        </div>           
+                    </div>
+            
+                </div>
+           </div>    
+        </div>
+        
+        <!-- Venha treinar conosco-->
+        <div id="apply-area">
+             <div class="container-fluid">
+                 <div class="row">
+                 <div class="col-md-6 apply-box" id="company-img"></div>
+                 <div class="col-md-6 apply-box" id="pattern-img">
+                 <h4> Você precisa entrar nessa!</h4>
+                 <p> Nunca é tarde para começar a praticar, a questão é oportunidade e interesse.</p>
+                 <p> Clique e descubra mais sobre a arte suave.</p>
+                 <p> Agora você terá a chance de se desenvolver para todos os lados.</p>
+                 <a href="#" class="main-btn" id="apply-btn"> Saiba mais</a>
+                 </div>
+             </div>    
+             </div>
+        </div>
+
+        <!-- Portfolio-->
+        <div id="portfolio-area">
+                <div class="container">
+                 <div class="row">
+                  <div class="col-md-12">
+                      <h3 class="main-title"> Áreas de desenvolvimento </h3>
+                    </div>
+                      <div class="col-md-12" id="filter-btn-box">
+                          <button class="main-btn filter-btn active" id="all-btn">Todos </button>
+                          <button class="main-btn filter-btn" id="corpo-btn"> Corpo </button>
+                          <button class="main-btn filter-btn" id="psi-btn"> Psiquismo </button>
+                          <button class="main-btn filter-btn" id="socia-btn"> Sociabilidade </button>
+                      </div>
+                      <div class="col-md-4 project-box corpo">
+                        <img src="img/proj1.jpg" class= "img-fluid" alt="Projeto 1">
+                      </div>
+                      <div class="col-md-4 project-box psi">
+                        <img src="img/proj2.jpg" class= "img-fluid" alt="Projeto 2">
+                      </div>
+                      <div class="col-md-4 project-box socia">
+                        <img src="img/proj3.jpg" class= "img-fluid" alt="Projeto 3">
+                      </div>
+                      <div class="col-md-4 project-box corpo">
+                        <img src="img/proj4.jpg" class= "img-fluid" alt="Projeto 4">
+                      </div>
+                      <div class="col-md-4 project-box psi">
+                        <img src="img/proj5.jpg" class= "img-fluid" alt="Projeto 5">
+                      </div>
+                      <div class="col-md-4 project-box socia">
+                        <img src="img/proj6.jpg" class= "img-fluid" alt="Projeto 6">
+                      </div>
+                  
+                 </div>
+                </div>
+        </div>
+
+        <!-- newsletter-->
+        <div id="news-area">
+              <div class="container">
+                <div class="col-md-12">
+                    <h3 class="main-title"> Fique por dentro de jiu-jitsu</h3>
+                </div>
+                <p> Assine nossa lista e receba informaçoes sobre novas posições</p>
+                <form action="">
+                    <input type= "email" class= "form-control" id= "email-input" name="email" placeholder= "Seu melhor email">
+                    <input type="submit" id="news-btn" value= "Inscrever">
+                </form>
+                </div>
+        </div>
+
+        <!-- Call to action -->
+        <div id="call-area">
+                <div class="container">
+                    <div class="row">
+                        <p> Deseja fazer uma aula grátis</p>
+                        <button class="main-btn" id="call-btn"> Agendar </button>
+                    </div>
+                </div>
+        </div>
+     </div>
+    </main>
+        <!--footer-->
+        <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title"> Entre nesse barco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                    <i class="fas fa-phone"></i>
+                    <p> <span class="contact-tile"> Ligue para:</span> (11) 17171-7171 </p>
+                    <p> <span class="contact-tile"> Horários:</span> 24h/7 </p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <p> <span class="contact-tile"> Envie um email para:</span> contato@jiu-jitsu.com</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p> <span class="contact-tile"> Venha tomar um açaí: </span> Rua das Flores - 191</p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                        <p> Ou deixe-nos uma mensagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="text" class="form-control" placeholder="E-mail" name= "email">
+                            <input type="text" class="form-control" placeholder="Assunto" name= "subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar" id="end-btn"> 
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="https://www.uol.com.br" target="_blank"> OB4lai0</a> &copy; 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+
+    <script src="js/scripts.js"></script>
+   
+</body>
+</html>
